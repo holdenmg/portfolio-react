@@ -1,7 +1,7 @@
 export default function About() {
     return (
-      <div style={{width: "400px", background: "rgba(109, 129, 118,0.75", textAlign: "center", fontWeight: "bold", color: "#ffffff"}} className= "container rounded">
-        <div className = "col">
+      <div style={{width: "360px", background: "rgba(109, 129, 118,0.75", textAlign: "center", fontWeight: "bold", color: "#ffffff", marginTop:"30px"}} className= "container rounded">
+        <div className = "col" style={{width: "330px"}}>
         <img src = "src/assets/IMG_4537 2.png" className="rounded-circle" style={{height:"300px", marginTop:"10px", marginBottom:"10px"}}></img>
         <p>My name is Holden Garrison. I am from Jacksonville, Florida. I am currently a student at Arizona State University where I am majoring in software engineering.
             </p>
