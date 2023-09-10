@@ -5,7 +5,7 @@ function Navigation() {
     const currentPage = useLocation().pathname;
 
     return (
-        <ul className="nav nav-tabs" style={{float: "right", fontFamily: "helvetica", fontWeight: "bold"}}>
+        <ul className="nav nav-tabs" style={{float: "right", fontFamily: "helvetica", fontWeight: "bold", marginRight:"5rem", marginTop:"5px"}}>
             <li className="nav-item" >
                 <Link
                     to="/"
