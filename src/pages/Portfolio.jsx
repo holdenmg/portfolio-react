@@ -2,6 +2,8 @@ import PortfolioCard from '../components/PortfolioCard'
 import '/index.css'
 import neighbor from '../assets/neighbor.png'
 import soundquest from '../assets/soundquest.png'
+import tech from '../assets/screenshot.png'
+import weather from '../assets/weather.png'
 
 const projects = [
 {
@@ -16,21 +18,23 @@ const projects = [
   id: 2,
   name:"SoundQuest",
   tech:"HTML/JQuery/CSS/JavaScript",
-  imgUrl:"assets/soundquest.png",
+  imgUrl: soundquest,
   gitUrl:"https://github.com/holdenmg/sound-quest",
   link:"https://holdenmg.github.io/sound-quest/",
 },
-{id: 3,
+{
+  id: 3,
   name: "TechBlog",
   tech: "Node/Handlebars/NoSQL",
-  imageUrl: "",
+  imgUrl: tech,
   gitUrl:"https://github.com/holdenmg/tech-blog",
   link: "https://guarded-tor-22362-c9691c46dfcb.herokuapp.com/"
 },
-{id: 4,
+{
+  id: 4,
   name: "Weather Dashboard",
   tech: "HTML/CSS/JavaScript/OpenWeather",
-  imageUrl: "",
+  imgUrl: weather,
   gitUrl:"https://github.com/holdenmg/weather-dashboard",
   link: "https://holdenmg.github.io/weather-dashboard"
 },

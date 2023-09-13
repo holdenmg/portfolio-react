@@ -44,36 +44,24 @@
   background-position: center;
   margin: .5rem .5rem .5rem .5rem;
   opacity: .6;
+  border-radius:10px;
   transition: opacity 1s;
 }
 .card-title {
   display: inline-block;
   padding: 0px 8px 0px 8px;
+  margin-bottom: 5px;
+  margin-right: 5px;
   color: var(--dark);
   position: absolute;
   right: 0;
   bottom:0;
   text-align: right;
-  line-height:20%;
+  border-radius: 5px;
+ 
   min-height: 0;
   opacity: 1;
    
-}
-/* Individual project cards */
-
-  
-
-.Wall{
-  background-image: url("../images/led.jpg");
-}
-.Calc{
-  background-image: url("../images/calc.jpg");
-}
-.Puzzel{
-  background-image: url("../images/pastel.jpg");
-}
-.Run{
-  background-image: url("../images/02-run-buddy_720.jpg");
 }
 
 /* ANIMATIONS */
