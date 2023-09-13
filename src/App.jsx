@@ -9,15 +9,24 @@ function App() {
   // The Outlet component will conditionally swap between the different pages according to the URL
   return (
     <>
-     
+
       <Nav />
-      
-      <main style={{ backgroundImage: `url(${background})`, backgroundSize: "cover", backgroundPosition: "center center", backgroundRepeat: "no-repeat", height: "1000px",
-      width: "100%",}} className="">
-      <Header />
+
+      <main style={{
+        backgroundImage: `url(${background})`, backgroundSize: "cover", backgroundPosition: "center center", backgroundRepeat: "no-repeat", height: "1000px",
+        width: "100%",
+      }} className="">
+        <Header />
         <Outlet />
+        
+         <div >
+            <Footer />
+            </div>
+        
        
-      
+
+
+
       </main>
     </>
   );
