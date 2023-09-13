@@ -1,4 +1,4 @@
-import PortfolioCard from '../components/PortfolioCard'
+import PortfolioCard from '../components/CardPortfolio'
 import '/index.css'
 import neighbor from '../assets/neighbor.png'
 import soundquest from '../assets/soundquest.png'
