@@ -8,7 +8,7 @@ import Contact from './pages/Contact';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
-import '/index.css'
+
 
 // define the accessible routes
 const router = createBrowserRouter([

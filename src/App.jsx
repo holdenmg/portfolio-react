@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import background from './assets/R0000242.png'
 
+
 function App() {
   // The Outlet component will conditionally swap between the different pages according to the URL
   return (

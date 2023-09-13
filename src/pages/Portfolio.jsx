@@ -1,19 +1,45 @@
-export default function Portfoilio() {
+import PortfolioCard from '../components/PortfolioCard'
+import '/index.css'
+import neighbor from '../assets/neighbor.png'
+import soundquest from '../assets/soundquest.png'
+
+const projects = [
+{
+  id: 1,
+  name: "Neighborhood Safari",
+  tech: "Handlebars/Node/NoSQL",
+  imgUrl: neighbor,
+  gitUrl:"https://github.com/holdenmg/nieghborhood-safari",
+  link: "https://gentle-ocean-39436-8a803375c53b.herokuapp.com"
+},
+{
+  id: 2,
+  name:"SoundQuest",
+  tech:"HTML/JQuery/CSS/JavaScript",
+  imgUrl:"assets/soundquest.png",
+  gitUrl:"https://github.com/holdenmg/sound-quest",
+  link:"https://holdenmg.github.io/sound-quest/",
+},
+{id: 3,
+  name: "TechBlog",
+  tech: "Node/Handlebars/NoSQL",
+  imageUrl: "",
+  gitUrl:"https://github.com/holdenmg/tech-blog",
+  link: "https://guarded-tor-22362-c9691c46dfcb.herokuapp.com/"
+},
+{id: 4,
+  name: "Weather Dashboard",
+  tech: "HTML/CSS/JavaScript/OpenWeather",
+  imageUrl: "",
+  gitUrl:"https://github.com/holdenmg/weather-dashboard",
+  link: "https://holdenmg.github.io/weather-dashboard"
+},
+
+
+]
+
+export default function Portfolio() {
     return (
-      <div>
-        <h1>Home Page</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-          velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-          ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-          non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-          ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-          rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-          tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-          porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-          vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-          fames ac ante ipsum primis in faucibus.
-        </p>
-      </div>
+      <PortfolioCard projects = {projects} />
     );
   }
