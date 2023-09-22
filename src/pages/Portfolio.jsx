@@ -4,6 +4,7 @@ import neighbor from '../assets/neighbor.png'
 import soundquest from '../assets/soundquest.png'
 import tech from '../assets/screenshot.png'
 import weather from '../assets/weather.png'
+import lawn from '../assets/lawn.png'
 
 const projects = [
 {
@@ -38,6 +39,12 @@ const projects = [
   gitUrl:"https://github.com/holdenmg/weather-dashboard",
   link: "https://holdenmg.github.io/weather-dashboard"
 },
+{id: 5,
+  name: "LawnShark",
+  tech: "MERN Stack",
+  imgUrl: weather,
+  gitUrl:"https://github.com/holdenmg/weather-dashboard",
+  link: "https://holdenmg.github.io/weather-dashboard"}
 
 
 ]
