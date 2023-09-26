@@ -38,16 +38,6 @@ function Navigation() {
             </li>
             <li className="nav-item">
                 <Link
-                    to="/Contact"
-                    //check to see if you are on homepage
-                    className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}
-                    style={{textDecoration: "none", color: "#7C8D85"}}
-                >
-                    Contact
-                </Link>
-            </li>
-            <li className="nav-item">
-                <Link
                     to="/Resume"
                     //check to see if you are on Contact page
                     className={currentPage === '/Resume' ? 'nav-link active' : 'nav-link'}

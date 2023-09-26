@@ -30,10 +30,6 @@ const router = createBrowserRouter([
         element: <Portfolio />,
       },
       {
-        path: '/Contact',
-        element: <Contact />,
-      },
-      {
         path: '/Resume',
         element: <Resume />,
       },
