@@ -36,16 +36,6 @@ function Navigation() {
                     Portfolio
                 </Link>
             </li>
-            <li className="nav-item">
-                <Link
-                    to="/Resume"
-                    //check to see if you are on Contact page
-                    className={currentPage === '/Resume' ? 'nav-link active' : 'nav-link'}
-                    style={{textDecoration: "none", color: "#7C8D85"}}
-                >
-                    Resume
-                </Link>
-            </li>
         </ul>
     );
 }
